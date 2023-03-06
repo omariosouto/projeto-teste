@@ -22,4 +22,4 @@ jobs:
           git checkout -b env-prod
           git merge main
           git commit -m "Deploying to prod"
-          git push origin env-prod
+          git push origin env-prod --force
