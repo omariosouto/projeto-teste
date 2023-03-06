@@ -23,7 +23,7 @@ jobs:
         run: |
           echo $TOKEN_PERSONAL
           git config --global user.email "13791385+omariosouto@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
+          git config --global user.name "Mario Souto [BOT]"
           git checkout -b env-prod
           git merge main
           git push origin env-prod --force
