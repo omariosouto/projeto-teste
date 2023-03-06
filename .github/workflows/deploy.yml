@@ -22,6 +22,6 @@ jobs:
           git config --global user.name "Mario Souto [BOT]"
           git checkout -b env-prod
           git merge main
-          git push -u origin env-prod
+          git push origin env-prod --force
 
 # git reset --hard main
