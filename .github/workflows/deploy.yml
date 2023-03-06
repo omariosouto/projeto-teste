@@ -17,7 +17,7 @@ jobs:
 
       - name: Push force to env-prod branch
         run: |
-          git checkout env-prod
+          git checkout -b env-prod
           git merge main --no-commit
           git commit -m "Deploying to prod"
           git push origin env-prod
